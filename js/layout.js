@@ -29,7 +29,7 @@
 
   const footerHTML = `
   <footer>
-    <p><!-- EDIT: year updates automatically --> &copy; <span id="yr"></span> Aria Rossi · Soprano</p>
+    <p><!-- EDIT: year updates automatically --> &copy; <span id="yr"></span> Kasumi Hiyane · Soprano</p>
     <div class="social-links">
       <!-- EDIT: replace # with real profile URLs, remove unused -->
       <a href="#" target="_blank" rel="noopener">Instagram</a>
