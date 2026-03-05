@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact · Aria Rossi</title>
+  <meta name="description" content="Get in touch with soprano Aria Rossi for bookings, press, and general enquiries." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <script src="/js/layout.js"></script>
+
+  <main class="page-content">
+    <section>
+      <span class="section-label">Get in Touch</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="divider"></div>
+
+      <div class="contact-wrapper">
+
+        <!-- LEFT: contact details -->
+        <div class="contact-info">
+          <p>
+            <!-- EDIT: short invitation text -->
+            For bookings, press enquiries, and collaborations, please use the form or reach out directly through the contacts below. All messages are answered within 48 hours.
+          </p>
+
+          <ul class="contact-detail">
+            <!-- EDIT: fill in real details, remove unused items -->
+            <li>
+              <span class="label">Management</span>
+              <!-- EDIT: manager name -->
+              <span><!-- Manager Name --></span>
+            </li>
+            <li>
+              <span class="label">Agency</span>
+              <!-- EDIT: agency name -->
+              <span><!-- Agency Name --></span>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <!-- EDIT: replace with real email -->
+              <a href="mailto:info@ariarossi.com">info@ariarossi.com</a>
+            </li>
+            <li>
+              <span class="label">Based in</span>
+              <!-- EDIT: city/country -->
+              <span>Milan, Italy</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- RIGHT: contact form -->
+        <!--
+          EDIT (optional): To make the form actually send emails, sign up for Formspree.io
+          (free tier available), replace the action URL below, and remove the JS submit handler
+          in main.js that prevents the default. Or use Netlify Forms, EmailJS, etc.
+        -->
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="#"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Booking enquiry · Interview · General" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me more…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-fill" style="width:fit-content; cursor:pointer;">Send Message</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- EDIT: page title & description -->
+  <title>Aria Rossi · Soprano</title>
+  <meta name="description" content="Aria Rossi — Italian soprano performing across Europe's leading opera houses." />
+  <link rel="stylesheet" href="/css/style.css" />
+  <!-- EDIT: add a favicon: place favicon.ico or favicon.svg in root -->
+</head>
+<body>
+
+  <!-- layout.js injects <header> and <footer> automatically -->
+  <script src="/js/layout.js"></script>
+
+  <main class="page-content">
+
+    <section class="hero">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Soprano · Lirico</span>
+        <!-- EDIT: her name and tagline -->
+        <h1>Aria <em>Rossi</em></h1>
+        <p class="hero-sub">
+          <!-- EDIT: short punchy bio line (1–2 sentences) -->
+          Italian soprano captivating audiences from La Scala to the Vienna State Opera with a voice described as "luminous and deeply human."
+        </p>
+        <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+          <a href="/listen" class="btn btn-fill">Listen</a>
+          <a href="/about" class="btn">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <!--
+          EDIT: Replace src with your photo.
+          Recommended size: ~840×1120 px (portrait, 3:4 ratio).
+          Place the file in /images/ and update the path below.
+        -->
+        <img
+          src="images/hero.jpg"
+          alt="Aria Rossi, soprano"
+          width="420"
+          height="560"
+          loading="eager"
+        />
+      </div>
+    </section>
+
+    <!-- ── QUOTE / PRESS PULL ── -->
+    <section style="padding: 4rem 5vw; border-top: 1px solid rgba(184,154,90,.15); text-align:center;">
+      <blockquote style="font-family:'Cormorant Garamond',serif; font-size:clamp(1.3rem,3vw,2rem); font-style:italic; color:var(--ink); max-width:720px; margin:0 auto 1rem;">
+        <!-- EDIT: a real press quote -->
+        "A voice of rare beauty — sovereign in colour and phrasing."
+      </blockquote>
+      <cite style="font-size:.7rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold);">
+        <!-- EDIT: source of the quote -->
+        — Corriere della Sera
+      </cite>
+    </section>
+
+    <!-- ── UPCOMING / HIGHLIGHTS ── -->
+    <section>
+      <span class="section-label">On Stage</span>
+      <h2 class="section-title">Upcoming Performances</h2>
+      <div class="divider"></div>
+
+      <!--
+        EDIT: Add / remove <article> blocks as needed.
+        Copy one block and fill in date, venue, role, city.
+      -->
+      <div style="display:flex; flex-direction:column; gap:.5px;">
+
+        <article style="display:grid; grid-template-columns:6rem 1fr auto; gap:1.5rem 2rem; align-items:center; padding:1.4rem 1.5rem; background:rgba(184,154,90,.05); border-left:2px solid transparent; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--gold)'" onmouseleave="this.style.borderColor='transparent'">
+          <div style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:var(--gold); line-height:1.1;">
+            15<br><span style="font-size:.65rem; letter-spacing:.2em; text-transform:uppercase; color:var(--warm-mid);">Jun 2025</span>
+          </div>
+          <div>
+            <strong style="font-family:'Cormorant Garamond',serif; font-size:1.15rem; display:block;">La Traviata — Violetta</strong>
+            <span style="font-size:.8rem; color:var(--warm-mid);">Teatro alla Scala, Milan</span>
+          </div>
+          <a href="#" class="btn" style="white-space:nowrap; font-size:.65rem; padding:.55rem 1.4rem;">Tickets</a>
+        </article>
+
+        <article style="display:grid; grid-template-columns:6rem 1fr auto; gap:1.5rem 2rem; align-items:center; padding:1.4rem 1.5rem; background:rgba(184,154,90,.05); border-left:2px solid transparent; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--gold)'" onmouseleave="this.style.borderColor='transparent'">
+          <div style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:var(--gold); line-height:1.1;">
+            04<br><span style="font-size:.65rem; letter-spacing:.2em; text-transform:uppercase; color:var(--warm-mid);">Sep 2025</span>
+          </div>
+          <div>
+            <strong style="font-family:'Cormorant Garamond',serif; font-size:1.15rem; display:block;">Le Nozze di Figaro — Countess</strong>
+            <span style="font-size:.8rem; color:var(--warm-mid);">Wiener Staatsoper, Vienna</span>
+          </div>
+          <a href="#" class="btn" style="white-space:nowrap; font-size:.65rem; padding:.55rem 1.4rem;">Tickets</a>
+        </article>
+
+        <article style="display:grid; grid-template-columns:6rem 1fr auto; gap:1.5rem 2rem; align-items:center; padding:1.4rem 1.5rem; background:rgba(184,154,90,.05); border-left:2px solid transparent; transition:border-color .2s;" onmouseenter="this.style.borderColor='var(--gold)'" onmouseleave="this.style.borderColor='transparent'">
+          <div style="font-family:'Cormorant Garamond',serif; font-size:1.4rem; color:var(--gold); line-height:1.1;">
+            22<br><span style="font-size:.65rem; letter-spacing:.2em; text-transform:uppercase; color:var(--warm-mid);">Nov 2025</span>
+          </div>
+          <div>
+            <strong style="font-family:'Cormorant Garamond',serif; font-size:1.15rem; display:block;">Madama Butterfly — Cio-Cio-San</strong>
+            <span style="font-size:.8rem; color:var(--warm-mid);">Glyndebourne Festival, UK</span>
+          </div>
+          <a href="#" class="btn" style="white-space:nowrap; font-size:.65rem; padding:.55rem 1.4rem;">Tickets</a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
