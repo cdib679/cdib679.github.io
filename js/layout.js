@@ -11,8 +11,7 @@
   const headerHTML = `
   <header id="navbar">
     <a class="nav-logo" href="${ROOT}">
-      <!-- EDIT: Replace with her name -->
-      <span>Aria</span> Rossi
+      <span>Kasumi</span> Hiyane
     </a>
     <button class="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
